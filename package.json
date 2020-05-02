@@ -1,6 +1,6 @@
 {
   "name": "@ecrowjs/theme",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A structured TypeScript theme object for JavaScript components.",
   "main": "index.js",
   "private": false,
