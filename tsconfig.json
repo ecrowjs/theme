@@ -1,16 +1,19 @@
 {
   "compilerOptions": {
     "module": "commonjs",
+    "lib": ["ES2015"],
     "noImplicitAny": true,
+    "esModuleInterop": true,
     "removeComments": true,
     "preserveConstEnums": true,
     "strict": true,
     "sourceMap": true,
-    "rootDir": ".",
     "outDir": ".",
     "declaration": true,
-    "declarationDir": "."
+    "declarationDir": ".",
+    "jsx": "react",
+    "types": ["react"]
   },
-  "include": ["./src/index.ts"],
-  "exclude": []
+  "files": ["./src/index.ts"],
+  "exclude": ["./node_modules"]
 }
