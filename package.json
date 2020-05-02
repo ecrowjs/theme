@@ -1,8 +1,9 @@
 {
-  "name": "@ecrowjs/app-theme",
+  "name": "@ecrowjs/theme",
   "version": "1.0.0",
-  "description": "A normalized TypeScript theme object for JavaScript components.",
+  "description": "A structured TypeScript theme object for JavaScript components.",
   "main": "index.js",
+  "private": false,
   "scripts": {
     "build": "tsc -p ./tsconfig.json",
     "clean": "rimraf ./*.js ./*.js.map ./*.d.ts ./src/*.js ./src/*.js.map ./src/*.d.ts",
@@ -10,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ecrow-ltd/app-theme.git"
+    "url": "git+https://github.com/ecrowjs/theme.git"
   },
   "keywords": [
     "theme",
@@ -21,9 +22,9 @@
   "author": "Eric Crowell",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ecrow-ltd/app-theme/issues"
+    "url": "https://github.com/ecrowjs/theme/issues"
   },
-  "homepage": "https://github.com/ecrow-ltd/app-theme#readme",
+  "homepage": "https://github.com/ecrowjs/theme#readme",
   "devDependencies": {
     "@types/react": "^16.9.34",
     "react": "^16.13.1",
