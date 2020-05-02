@@ -1,5 +1,13 @@
 import { ITheme } from './ITheme';
 
+const font = {
+  fontFamily: 'Roboto, Helvetica, Arial, sans-serif',
+  fontSize: '0.9125rem',
+  fontStyle: 'normal',
+  fontWeight: 400,
+  opacity: 1,
+};
+
 const defaultTheme: ITheme = {
   color: {
     base: {
@@ -28,38 +36,40 @@ const defaultTheme: ITheme = {
     },
   },
   font: {
-    base: {
-      fontFamily: 'Roboto, Helvetica, Arial, sans-serif',
-      fontSize: '0.9125rem',
-      fontStyle: 'normal',
-      fontWeight: 400,
-      opacity: 1,
-    },
+    base: font,
     heading1: {
+      ...font,
       fontSize: '1.6rem',
     },
     heading2: {
+      ...font,
       fontSize: '1.4rem',
     },
     heading3: {
+      ...font,
       fontSize: '1.2rem',
     },
-    paragraph: {},
+    paragraph: font,
     quote: {
+      ...font,
       fontStyle: 'italic',
       opacity: 0.7,
     },
     small: {
+      ...font,
       fontSize: '0.75rem',
     },
     subheading: {
+      ...font,
       fontSize: '1.15rem',
     },
     subtitle: {
+      ...font,
       fontSize: '1.3rem',
       fontWeight: 700,
     },
     title: {
+      ...font,
       fontSize: '1.7rem',
       fontWeight: 700,
     },

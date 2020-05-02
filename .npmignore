@@ -6,3 +6,4 @@ src/
 
 # Configurations
 tsconfig.json
+*.yml

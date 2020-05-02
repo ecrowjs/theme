@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc -p ./tsconfig.json",
     "clean": "rimraf ./*.js ./*.js.map ./*.d.ts ./src/*.js ./src/*.js.map ./src/*.d.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run build"
   },
   "repository": {
     "type": "git",
