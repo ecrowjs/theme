@@ -1,4 +1,4 @@
-import * as CSS from 'csstype';
+import { CSSObject } from 'styled-components';
 
 export interface IColorVariant {
   /**
@@ -71,10 +71,10 @@ export interface ITheme {
     };
   };
   readonly touchable: {
-    idle: CSS.Properties;
-    disabled: CSS.Properties;
-    active: CSS.Properties;
-    hover: CSS.Properties;
+    idle: CSSObject;
+    disabled: CSSObject;
+    active: CSSObject;
+    hover: CSSObject;
   };
   readonly transition: {
     readonly ease: {

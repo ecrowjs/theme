@@ -27,6 +27,7 @@
   "homepage": "https://github.com/ecrowjs/theme#readme",
   "devDependencies": {
     "@types/react": "^16.9.34",
+    "@types/styled-components": "^5.1.0",
     "react": "^16.13.1",
     "rimraf": "^3.0.2",
     "typescript": "^3.8.3"

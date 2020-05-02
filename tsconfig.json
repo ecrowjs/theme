@@ -12,7 +12,7 @@
     "declaration": true,
     "declarationDir": ".",
     "jsx": "react",
-    "types": ["react"]
+    "types": ["react", "styled-components"]
   },
   "files": ["./src/index.ts"],
   "exclude": ["./node_modules"]
