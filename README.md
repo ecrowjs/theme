@@ -1,5 +1,5 @@
 <h1 align="center">
-<span style="opacity:0.5">@eCrowJS/</span>App-Theme
+<span style="color:#888">@eCrowJS/</span>Theme
 </h1>
 
 <div align="center">
