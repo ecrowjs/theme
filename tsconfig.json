@@ -4,7 +4,13 @@
     "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,
-    "sourceMap": true
+    "strict": true,
+    "sourceMap": true,
+    "rootDir": ".",
+    "outDir": ".",
+    "declaration": true,
+    "declarationDir": "."
   },
-  "include": ["src/index.ts"]
+  "include": ["./src/index.ts"],
+  "exclude": []
 }
