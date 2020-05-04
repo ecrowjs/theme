@@ -61,7 +61,13 @@ export interface IFont {
 }
 
 export interface ITheme {
+  /**
+   * Colors for a variety of variants.
+   */
   readonly color: IColor;
+  /**
+   * Font styling for a variety of variants used in typography.
+   */
   readonly font: IFont;
   readonly shadow: string[];
   readonly shape: {
