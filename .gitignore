@@ -110,3 +110,7 @@ dist
 
 # Lock files
 *lock.json
+
+# build
+.lib
+.pkg

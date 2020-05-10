@@ -8,9 +8,9 @@
     "preserveConstEnums": true,
     "strict": true,
     "sourceMap": true,
-    "outDir": ".",
+    "outDir": ".lib",
     "declaration": true,
-    "declarationDir": ".",
+    "declarationDir": ".lib",
     "jsx": "react",
     "types": ["react", "styled-components"]
   },

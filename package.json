@@ -5,9 +5,10 @@
   "main": "index.js",
   "private": false,
   "scripts": {
-    "build": "tsc -p ./tsconfig.json",
-    "clean": "rimraf ./*.js ./*.js.map ./*.d.ts ./src/*.js ./src/*.js.map ./src/*.d.ts",
-    "test": "npm run build"
+    "build": "tsc -p ./tsconfig.json && npm run pkg",
+    "clean": "rimraf .lib .pkg",
+    "test": "npm run build",
+    "pkg": "npmpack --copy .lib/* --output .pkg"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
   },
   "homepage": "https://github.com/ecrowjs/theme#readme",
   "devDependencies": {
+    "@ecrowjs/npmpack": "^1.0.0",
     "@types/react": "^16.9.34",
     "@types/styled-components": "^5.1.0",
     "react": "^16.13.1",
